@@ -21,3 +21,10 @@ function toWeirdCase(string) {
     return arr.join(" ");
 }
 console.log(toWeirdCase("pa pa p p"));
+let s = "sss";
+// arr = s.split("");
+// arr[2] = "a";
+// s = arr.join('');
+let arr = [...s];
+
+console.log(s);
